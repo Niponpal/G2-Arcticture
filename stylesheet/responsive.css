@@ -6,10 +6,15 @@
         padding: 20px;
     }
 
-    nav{
+    nav, 
+    .tem-container
+    {
         flex-direction: column;
-    }
+    } 
 
+    .tem-container .image-container {
+        grid-template-columns: 1fr;
+    }
 }
 /* Mediam Deives */
 
@@ -17,7 +22,22 @@
     header{
         padding: 50px;
     }
-    nav{
+    nav,
+    .tem-container{
+        flex-direction: column;
+    }
+
+}
+
+/* largest Media */
+
+
+@media screen and (min-width:992px) and (max-width:1248Kpx) {
+    header{
+        padding: 50px;
+    }
+    nav,
+    .tem-container{
         flex-direction: column;
     }
 
