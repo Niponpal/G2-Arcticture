@@ -104,6 +104,34 @@ main{
 
 
 
+.feature-container {
+    display: flex;
+    margin-top: 20px;
+    margin: 270px ;
+    gap: 130px;
+}
+
+
+.feature-image {
+    width: 750px;
+    height: 85vh;
+}
+.feature-image img{
+    width: 94%;
+    height: 100%;
+}
+
+
+.featurer-title .card{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 8px;
+    margin-bottom: 20px;
+    /* box-shadow: 5px 5px white, 10px 10px red, 15px 15px green; */
+
+    box-shadow: 0px  4px 30px 0px rgb(0, 0, 0, 06);
+}
+
 
 
 
