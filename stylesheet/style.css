@@ -1,0 +1,56 @@
+
+
+* {
+  font-family: "Work Sans", serif;
+
+  
+}
+/* Header Area */
+header{
+    background-color: #cbc47b;
+    padding: 50px 250px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-tittle{
+    font-size: 2.8rem;
+}
+
+.nav-item{
+    display: flex;
+    /* width: 60%;
+    justify-content: space-around; */
+}
+
+.nav-item li {
+    list-style: none;
+    padding: 5px 8px;
+    margin: 0px 10px;
+}
+
+.nav-item li a{
+   text-decoration: none;
+   color: white;
+}
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.banner-tittle{
+    font-size: 4rem;
+    font-weight: 700px;
+}
+
+.banner-description{
+
+    color: rgb(128, 115, 115);
+}
