@@ -1,14 +1,21 @@
 
-
 * {
   font-family: "Work Sans", serif;
+}
 
-  
+.btn-primary{
+    border-radius: 8px;
+    font-size: 1.3rem;
+    margin: 5px;
+    padding:20px 27px;
+    background-color: orangered;
+    color: white;
 }
 /* Header Area */
 header{
-    background-color: #cbc47b;
+    /* background-color: #cbc47b; */
     padding: 50px 250px;
+    background-image: linear-gradient(to bottom, #a0bdeb, #7fbed8, #7cbbba, #8db39e, #9fa88c);
    
 }
 
@@ -54,3 +61,14 @@ nav{
 
     color: rgb(128, 115, 115);
 }
+
+.banneer .banner-image{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+
