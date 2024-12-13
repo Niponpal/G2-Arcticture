@@ -8,7 +8,7 @@
     font-size: 1.3rem;
     margin: 5px;
     padding:20px 27px;
-    background-color: orangered;
+    background-color: #133574;
     color: white;
 }
 /* Header Area */
@@ -59,7 +59,7 @@ nav{
 
 .banner-description{
 
-    color: rgb(128, 115, 115);
+    color: #EEEEEE;
 }
 
 .banneer .banner-image{
